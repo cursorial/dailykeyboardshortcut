@@ -7,159 +7,219 @@ export interface Shortcut {
 
 export const shortcuts: Shortcut[] = [
   {
-    description: "Show or hide the integrated terminal",
-    windows: "Ctrl + `",
-    linux: "Ctrl + `",
-    mac: "Cmd + `",
+    description: 'Open a file',
+    windows: 'CTRL + P',
+    linux: 'CTRL + P',
+    mac: 'CMD + P'
   },
   {
-    description: "Show or hide the side panel",
-    windows: "Ctrl + B",
-    linux: "Ctrl + B",
-    mac: "Cmd + B",
+    description: 'Open settings',
+    windows: 'CTRL + ,',
+    linux: 'CTRL + ,',
+    mac: 'CMD + ,'
   },
   {
-    description: "Quick open a file",
-    windows: "Ctrl + P",
-    linux: "Ctrl + P",
-    mac: "Cmd + P",
+    description: 'Toggle sidebar',
+    windows: 'CTRL + B',
+    linux: 'CTRL + B',
+    mac: 'CMD + B'
   },
   {
-    description: "Toggle between full screen mode",
-    windows: "F11",
-    linux: "F11",
-    mac: "Ctrl + Cmd + F",
+    description: 'Navigate tabs',
+    windows: 'CTRL + SHIFT + TAB',
+    linux: 'CTRL + SHIFT + TAB',
+    mac: 'CTRL + SHIFT + TAB'
   },
   {
-    description: "Toggle between Zen mode",
-    windows: "Ctrl + K, Z",
-    linux: "Ctrl + K, Z",
-    mac: "Cmd + K, Z",
+    description: 'Navigate tab groups',
+    windows: 'CTRL + 1 or CTRL + 2 or CTRL + 3',
+    linux: 'CTRL + 1 or CTRL + 2 or CTRL + 3',
+    mac: 'CMD + 1 or CMD + 2 or CMD + 3'
   },
   {
-    description: "Open settings",
-    windows: "Ctrl + ,",
-    linux: "Ctrl + ,",
-    mac: "Cmd + ,",
+    description: 'Open the terminal',
+    windows: 'CTRL + J',
+    linux: 'CTRL + J',
+    mac: 'CMD + J'
   },
   {
-    description: "Search for a specific setting",
-    windows: "Ctrl + P, @",
-    linux: "Ctrl + P, @",
-    mac: "Cmd + P, @",
+    description: 'Open the command palette',
+    windows: 'CTRL + SHIFT + P',
+    linux: 'CTRL + SHIFT + P',
+    mac: 'CMD + SHIFT + P'
   },
   {
-    description: "Search for a command",
-    windows: "Ctrl + Shift + P",
-    linux: "Ctrl + Shift + P",
-    mac: "Cmd + Shift + P",
+    description: 'Select the current line',
+    windows: 'CTRL + L',
+    linux: 'CTRL + L',
+    mac: 'CMD + L'
   },
   {
-    description: "Toggle between open editors",
-    windows: "Ctrl + Tab",
-    linux: "Ctrl + Tab",
-    mac: "Cmd + Tab",
+    description: 'Select all occurrences of the current selection',
+    windows: 'CTRL + SHIFT + L',
+    linux: 'CTRL + SHIFT + L',
+    mac: 'CMD + SHIFT + L'
   },
   {
-    description: "Switch between open windows",
-    windows: "Alt + Tab",
-    linux: "Alt + Tab",
-    mac: "Cmd + `",
+    description: 'Select all occurrences of the current word',
+    windows: 'CTRL + P',
+    linux: 'CTRL + P',
+    mac: 'CMD + P'
   },
   {
-    description: "Switch between open instances of Visual Studio Code",
-    windows: "Ctrl + Alt + Tab",
-    linux: "N/A",
-    mac: "N/A",
+    description: 'Select until the end of the word',
+    windows: 'SHIFT + ALT + LEFT or SHIFT + ALT + RIGHT',
+    linux: 'SHIFT + ALT + LEFT or SHIFT + ALT + RIGHT',
+    mac: 'SHIFT + OPTION + LEFT or SHIFT + OPTION + RIGHT'
   },
   {
-    description: "Open the integrated terminal",
-    windows: "Ctrl + `",
-    linux: "Ctrl + `",
-    mac: "Cmd + `",
+    description: 'Select a column or box of code by dragging the mouse',
+    windows: 'SHIFT + ALT + drag mouse across lines',
+    linux: 'SHIFT + ALT + drag mouse across lines',
+    mac: 'SHIFT + OPTION + drag mouse across lines'
   },
   {
-    description: "Create a new terminal instance",
-    windows: "Ctrl + Shift + `",
-    linux: "Ctrl + Shift + `",
-    mac: "Cmd + Shift + `",
+    description: 'Select a column or box of code with the arrow keys',
+    windows: 'CTRL + SHIFT + ALT + LEFT or RIGHT or UP or DOWN',
+    linux: 'CTRL + SHIFT + ALT + LEFT or RIGHT or UP or DOWN',
+    mac: 'CMD + SHIFT + ALT + LEFT or RIGHT or UP or DOWN'
   },
   {
-    description: "Focus on the terminal",
-    windows: "Ctrl + `",
-    linux: "Ctrl + `",
-    mac: "Cmd + `",
+    description: 'Select the next occurrence of the searched word when search is focused',
+    windows: 'CTRL + G',
+    linux: 'CTRL + G',
+    mac: 'CMD + G'
+  },
+  { 
+    description: 'Select multiple results',
+    windows: 'CTRL + D',
+    linux: 'CTRL + D',
+    mac: 'CMD + D'
   },
   {
-    description: "Open the command palette",
-    windows: "Ctrl + Shift + P",
-    linux: "Ctrl + Shift + P",
-    mac: "Cmd + Shift + P",
+    description: 'Select all instances of search results',
+    windows: 'ALT + ENTER',
+    linux: 'ALT + ENTER',
+    mac: 'OPTION + ENTER'
   },
   {
-    description: "Go to a specific line in the current file",
-    windows: "Ctrl + G",
-    linux: "Ctrl + G",
-    mac: "Cmd + L",
+    description: 'Go to line',
+    windows: 'CTRL + G',
+    linux: 'CTRL + G',
+    mac: 'CTRL + G'
   },
   {
-    description: "Navigate to the last cursor position",
-    windows: "Ctrl + Alt + -",
-    linux: "Ctrl + Alt + -",
-    mac: "Cmd + Alt + -",
+    description: 'Go to matching bracket',
+    windows: 'CTRL + SHIFT + \\',
+    linux: 'CTRL + SHIFT + \\',
+    mac: 'CMD + SHIFT + \\'
   },
   {
-    description: "Navigate to the next cursor position",
-    windows: "Ctrl + Shift + -",
-    linux: "Ctrl + Shift + -",
-    mac: "Cmd + Shift + -",
+    description: 'Fold/unfold block',
+    windows: 'CTRL + SHIFT + [ or CTRL + SHIFT + ]',
+    linux: 'CTRL + SHIFT + [ or CTRL + SHIFT + ]',
+    mac: 'CMD + SHIFT + [ or CMD + SHIFT + ]'
   },
   {
-    description: "Trigger suggestions",
-    windows: "Ctrl + Space",
-    linux: "Ctrl + Space",
-    mac: "Cmd + Space",
+    description: 'Fold/unfold blocks and sub-blocks',
+    windows: 'CTRL + K + [ or CTRL + K + ]',
+    linux: 'CTRL + K + [ or CTRL + K + ]',
+    mac: 'CMD + K + [  or CTRL + K + ]'
   },
   {
-    description: "Trigger parameter hints",
-    windows: "Ctrl + Shift + Space",
-    linux: "Ctrl + Shift + Space",
-    mac: "Cmd + Shift + Space",
+    description: 'Insert additional cursors at mouse click position',
+    windows: 'ALT + mouse click at position',
+    linux: 'ALT + mouse click at position',
+    mac: 'OPTION + mouse click at position'
   },
   {
-    description: "Format the document",
-    windows: "Shift + Alt + F",
-    linux: "Ctrl + Shift + I",
-    mac: "Shift + Alt + F",
+    description: 'Insert additional cursors with arrow keys',
+    windows: 'CTRL + ALT + UP or CTRL + ALT + DOWN',
+    linux: 'CTRL + ALT + UP or CTRL + ALT + DOWN',
+    mac: 'CMD + ALT + UP or CMD + ALT + DOWN'
   },
   {
-    description: "Add a cursor above the current line",
-    windows: "Ctrl + Alt + Up",
-    linux: "Ctrl + Alt + Up",
-    mac: "Cmd + Alt + Up",
+    description: 'Undo cursor insert',
+    windows: 'CTRL + U',
+    linux: 'CTRL + U',
+    mac: 'CMD + U'
   },
   {
-    description: "Add a cursor below the current line",
-    windows: "Ctrl + Alt + Down",
-    linux: "Ctrl + Alt + Down",
-    mac: "Cmd + Alt + Down",
+    description: 'Insert the cursor at end of highlighted selection',
+    windows: 'SHIFT + ALT + I',
+    linux: 'SHIFT + ALT + I',
+    mac: 'SHIFT + OPTION + I'
   },
   {
-    description: "Select all occurrences of the current word in the document",
-    windows: "Ctrl + Shift + L",
-    linux: "Ctrl + Shift + L",
-    mac: "Cmd + Shift + L",
+    description: 'Move lines and blocks',
+    windows: 'ALT + UP or ALT + DOWN',
+    linux: 'ALT + UP or ALT + DOWN',
+    mac: 'OPTION + UP or OPTION + DOWN'
   },
   {
-    description: "Move the current line up or down",
-    windows: "Alt + Up / Down",
-    linux: "Alt + Up / Down",
-    mac: "Cmd + Alt + Up / Down",
+    description: 'Copy lines and blocks',
+    windows: 'SHIFT + ALT + UP or SHIFT + ALT + DOWN',
+    linux: 'SHIFT + ALT + UP or SHIFT + ALT + DOWN',
+    mac: 'SHIFT + OPTION + UP or SHIFT + OPTION + DOWN'
   },
   {
-    description: "Copy the current line above or below",
-    windows: "Shift + Alt + Up / Down",
-    linux: "Shift + Alt + Up / Down",
-    mac: "Cmd + Shift + Alt + Up / Down",
+    description: 'Indent/outdent lines',
+    windows: 'CTRL + [ or CTRL + ]',
+    linux: 'CTRL + [ or CTRL + ]',
+    mac: 'CMD + [ or CMD + ]'
+  },
+  {
+    description: 'Toggle comments',
+    windows: 'CTRL + /',
+    linux: 'CTRL + /',
+    mac: 'CMD + /'
+  },
+  {
+    description: 'Block comments',
+    windows: 'SHIFT + ALT + A',
+    linux: 'SHIFT + ALT + A',
+    mac: 'SHIFT + OPTION + A'
+  },
+  {
+    description: 'Format the entire file',
+    windows: 'CTRL + P',
+    linux: 'CTRL + P',
+    mac: 'CMD + P'
+  },
+  {
+    description: 'Format current selection',
+    windows: 'CTRL + K, CTRL + F',
+    linux: 'CTRL + K, CTRL + F',
+    mac: 'CMD + K, CMD + F'
+  },
+  {
+    description: 'Trim whitespace',
+    windows: 'CTRL + K + X',
+    linux: 'CTRL + K + X',
+    mac: 'CMD + K + X'
+  },
+  {
+    description: 'Change programming language',
+    windows: 'CTRL + K, M',
+    linux: 'CTRL + K, M',
+    mac: 'CMD + K, M'
+  },
+  {
+    description: 'Toggle suggestions',
+    windows: 'CTRL + I',
+    linux: 'CTRL + I',
+    mac: 'CMD + I'
+  },
+  {
+    description: 'Show function signature',
+    windows: 'CTRL + SHIFT + SPACEBAR',
+    linux: 'CTRL + SHIFT + SPACEBAR',
+    mac: 'CMD + SHIFT + SPACEBAR'
+  },
+  {
+    description: 'Zen Mode',
+    windows: 'CTRL + K, Z',
+    linux: 'CTRL + K, Z',
+    mac: 'CMD + K, Z'
   }
 ];

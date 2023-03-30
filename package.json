@@ -2,7 +2,8 @@
   "name": "dailykeyboardshortcut",
   "displayName": "DailyKeyboardShortcut",
   "description": "Learn to become a VSCode pro with DailyKeyboardShortcut, learn a new keyboard shortcut every day",
-  "version": "0.0.1",
+  "publisher": "frost-eng",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.76.0"
   },
