@@ -61,12 +61,6 @@ export const shortcuts: Shortcut[] = [
     mac: 'CMD + SHIFT + L'
   },
   {
-    description: 'Select all occurrences of the current word',
-    windows: 'CTRL + P',
-    linux: 'CTRL + P',
-    mac: 'CMD + P'
-  },
-  {
     description: 'Select until the end of the word',
     windows: 'SHIFT + ALT + LEFT or SHIFT + ALT + RIGHT',
     linux: 'SHIFT + ALT + LEFT or SHIFT + ALT + RIGHT',
@@ -182,9 +176,9 @@ export const shortcuts: Shortcut[] = [
   },
   {
     description: 'Format the entire file',
-    windows: 'CTRL + P',
-    linux: 'CTRL + P',
-    mac: 'CMD + P'
+    windows: 'CTRL + SHIFT + F',
+    linux: 'CTRL + SHIFT + F',
+    mac: 'OPTION + SHIFT + F'
   },
   {
     description: 'Format current selection',
