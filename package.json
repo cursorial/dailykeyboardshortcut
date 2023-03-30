@@ -3,10 +3,11 @@
   "displayName": "DailyKeyboardShortcut",
   "description": "Learn to become a VSCode pro with DailyKeyboardShortcut, learn a new keyboard shortcut every day",
   "publisher": "frost-eng",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.76.0"
   },
+  "repository": "https://github.com/cursorial/dailykeyboardshortcut",
   "categories": [
     "Other"
   ],
@@ -20,7 +21,8 @@
               "command": "dailyKeyboardShortcut.showShortcut",
               "title": "Show Today's Keyboard Shortcut"
           }
-      ]
+      ],
+      "icon": "./resources/logo.png"
   },
   "scripts": {
     "vscode:prepublish": "yarn run package",
